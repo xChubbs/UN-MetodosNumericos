@@ -61,7 +61,7 @@ durante los espacios de asesoria.
 Estos son los pendientes públicos que se tienen para la semana y el desarrollo de actividades en 
 la asignatura
 - [x] Crear repositorio
-- [ ] Actualizar Carpetas
+- [x] Actualizar Carpetas
 - [x] Creación y actualización del `README.md`
 - [x] Videos tutoriales de Instalación y manejo de Python / MATLAB
 - [ ] Creación de ejercicios para prácticas individuales
