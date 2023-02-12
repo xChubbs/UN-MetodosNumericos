@@ -32,7 +32,7 @@ se indica a continuación:
 ### Asesorias
 > En la *branch* abarca toda la información relacionado al contenido, preguntas, propuestas y códigos trabajados
 durante los espacios de asesoria.
-> Se tiene encarpetadas cada una de las actividades realizadas en semana en formato semana XX, *por ejemplo semana 00*.
+> Se tiene encarpetadas cada una de las actividades realizadas en semana en formato semana XX, **por ejemplo semana 00**.
 >> Los formatos que se encuentran en esta Branch son:
 >> - `.ipynb`
 >> - `.mlx`
@@ -41,7 +41,7 @@ durante los espacios de asesoria.
 
 ### Talleres
 > En la *branch* abarca toda la información relacionado a los temas abordados en los espacios de talleres de la semana.
-> Se tiene encarpetadas cada una de las actividades realizadas en semana en formato semana XX, *por ejemplo semana 00*.
+> Se tiene encarpetadas cada una de las actividades realizadas en semana en formato semana XX, **por ejemplo semana 00**.
 >> Los formatos que se encuentran en esta Branch son:
 >> - `.pdf`
 >> - `.ipynb`
@@ -51,7 +51,7 @@ durante los espacios de asesoria.
 
 ### Semestres pasados
 > En la *branch* contiene el registro de las actividades realizadas durante los semestres **2022-01S** & **2022-02S**
-> Se tiene encarpetadas cada una de las actividades realizadas en semana en formato semana XX, *por ejemplo semana 00*.
+> Se tiene encarpetadas cada una de las actividades realizadas en semana en formato semana XX, **por ejemplo semana 00**.
 >> Los formatos que se encuentran en esta Branch son:
 >> - `.pdf`
 >> - `.mlx`
@@ -62,6 +62,6 @@ Estos son los pendientes públicos que se tienen para la semana y el desarrollo 
 la asignatura
 - [x] Crear repositorio
 - [ ] Actualizar Carpetas
-- [x] Creación y actualización del ´README.md´
+- [x] Creación y actualización del `README.md`
 - [x] Videos tutoriales de Instalación y manejo de Python / MATLAB
 - [ ] Creación de ejercicios para prácticas individuales
