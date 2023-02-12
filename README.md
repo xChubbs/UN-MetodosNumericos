@@ -1,2 +1,4 @@
 # UN-MetodosNumericos
-Pendiente
+Voy a realizar un nuevo cambio
+- [x] Crear repositorio
+- [ ] Actualizar Carpetas
