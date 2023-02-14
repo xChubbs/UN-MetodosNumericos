@@ -16,11 +16,11 @@ innamovibles a menos que se indique lo contrario.
 | Franja / Hora | **Lunes** | **Martes** | **Miercoles** | **Jueves** | **Viernes** |
 |:------:|:------:|:------:|:---------:|:------:|:-------:|
 | 8:00 - 10:00 |   |   |   |   |   |
-| 10:00 - 12:00 |   |   |  Asesoria Presencial |   | Asesoria Presencial |
+| 10:00 - 12:00 |   |   |    |   | Asesoria Presencial |
 | 12:00 - 14:00 |   |   |   | Taller Presencial | Taller Presencial |
 | 14:00 - 16:00 |   |   |   |   |   |
 | 16:00 - 18:00 |   |   |   |   |   |
-| 18:00 - 20:00 |   | Taller Virtual |   | Taller Virtual |   |
+| 18:00 - 20:00 |   | Taller Virtual |   |   |   |
 
 Los horarios de talleres que se presentan son tentativos, y corresponden a la disponibilidad que propone
 el director de la materia y el enfoque que se le da en la semana.
