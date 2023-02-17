@@ -16,7 +16,7 @@ innamovibles a menos que se indique lo contrario.
 | Franja / Hora | **Lunes** | **Martes** | **Miercoles** | **Jueves** | **Viernes** |
 |:------:|:------:|:------:|:---------:|:------:|:-------:|
 | 8:00 - 10:00 |   |   |   |   |   |
-| 10:00 - 12:00 |   |   |    |   | Asesoria Presencial |
+| 10:00 - 12:00 |   | Asesoria Presencial |    |   |  |
 | 12:00 - 14:00 |   |   |   | Taller Presencial | Taller Presencial |
 | 14:00 - 16:00 |   |   |   |   |   |
 | 16:00 - 18:00 |   |   |   |   |   |
