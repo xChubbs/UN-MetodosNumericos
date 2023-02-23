@@ -11,7 +11,7 @@ estudiantes en la asignatura.
 
 ## Horarios de actividades
 Durante la semana del **13/02** al **17/02** se emplearan los horarios de Asesorias y Talleres, los horarios permanecen
-innamovibles a menos que se indique lo contrario.
+innamovibles a menos que se indique lo contrario. El salón de actividades es el **11-209**
 
 | Franja / Hora | **Lunes** | **Martes** | **Miercoles** | **Jueves** | **Viernes** |
 |:------:|:------:|:------:|:---------:|:------:|:-------:|
