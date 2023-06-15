@@ -285,3 +285,67 @@ def lagran (X, Y):
     C = Y @ L
    
     return C, L
+
+
+# --------------------- Rutinas Aprox. EDO --------------------------- #
+
+def euler (f, a, b, ya, M):
+
+# Entrada  - f funcion creada con @
+#          - a y b son los extremos izquierdo y derecho
+#          - ya es la condicion inicial  y(a)
+#          - M es el numero de pasos
+# Salida   - E = [T', Y'] donde T es el vector de abscisas y
+#            Y es el vector de ordenadas
+
+#  METODOS NUMERICOS: Programas en Matlab
+# (c) 2004 por John H. Mathews y Kurtis D. Fink
+#  Software complementario acompa�ando al texto:
+#  METODOS NUMERICOS con Matlab, Cuarta Edicion
+#  ISBN: 0-13-065248-2
+#  Prentice-Hall Pub. Inc.
+#  One Lake Street
+#  Upper Saddle River, NJ 07458
+
+    M = int(M)
+    h = (b - a) / M
+    T = np.arange(a, b +1, h)
+    T = T.tolist()
+
+    Y = []
+    Y += [ya]
+
+    for  j in range(0, M):
+        Y  += [Y[j] + h * f(T[j], Y[j])]
+
+    return T, Y
+
+def eulers (f, a, b, Za, M):
+
+# Entrada  - f funcion creada con @
+#          - a y b son los extremos izquierdo y derecho
+#          - ya es la condicion inicial  y(a)
+#          - M es el numero de pasos
+# Salida   - E = [T', Y'] donde T es el vector de abscisas y
+#            Y es el vector de ordenadas
+
+#  METODOS NUMERICOS: Programas en Matlab
+# (c) 2004 por John H. Mathews y Kurtis D. Fink
+#  Software complementario acompa�ando al texto:
+#  METODOS NUMERICOS con Matlab, Cuarta Edicion
+#  ISBN: 0-13-065248-2
+#  Prentice-Hall Pub. Inc.
+#  One Lake Street
+#  Upper Saddle River, NJ 07458
+
+    M = int(M)
+    h = (b - a) / M
+    T = np.arange(a, b +1, h)
+
+    Z = np.zeros( (M+1, len(Za)))
+    Z[0, :] = Za
+
+    for j in range(0, M):
+        Z[j +1, :] = Z[j, :] + h * f(T[j], Z[j,:])
+
+    return T, Z
